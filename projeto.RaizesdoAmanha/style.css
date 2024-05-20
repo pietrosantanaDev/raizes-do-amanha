@@ -1,0 +1,17 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho .logo{
+    display: flex;
+    gap: 15px;
+}
+
+.cabecalho .menu{
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    font-weight: bolder;
+}
+
