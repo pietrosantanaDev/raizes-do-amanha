@@ -1,0 +1,57 @@
+.cabecalho{
+    background-color: rgb(243, 222, 192); 
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho .logo{
+    display: flex;
+    gap: 15px;
+}
+
+.cabecalho .menu{
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+.tresColunas{
+    display: flex;
+    padding: 10;
+    text-align: justify;
+    height: 100vh;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.oquefaz{
+    background-image: url('topicos1.png');
+    padding: vh;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+.quemsomos{
+    background-image: url('topicos2.png');
+    padding: 30px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+.doacao{
+    background-image: url('topicos3.png');
+    padding: 20px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+.imghome{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
