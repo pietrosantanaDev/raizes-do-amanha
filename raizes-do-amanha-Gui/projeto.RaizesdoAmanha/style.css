@@ -1,0 +1,48 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho .logo{
+    display: flex;
+    gap: 15px;
+}
+
+.cabecalho .menu{
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+.tresColunas{
+    display: flex;
+    padding: 10;
+    text-align: justify;
+    height: 100vh;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.oquefaz{
+    background-image: url('Natureza.jpg');
+    padding: 20px;
+    width: 300px;
+    
+
+}
+
+.quemsomos{
+    background-color: #264de4;
+    padding: 20px;
+    width: 300px;
+}
+
+.doacao{
+    background-color: #FFD700;
+    padding: 20px;
+    width: 300px;
+}
