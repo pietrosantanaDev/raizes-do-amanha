@@ -193,12 +193,12 @@ button:hover{
 /*box Projetos*/
 
 .box-pj{
-    background-color: rgb(127, 182, 141);
+    background-color:#fff;
     border-radius: 10px;
     padding: 30px;
     border-style: solid;
     border-width: 15px;
-    border-color:  rgba(186, 218, 194, 0.523);
+    border-color:rgb(77, 143, 94);
 
 }
 
